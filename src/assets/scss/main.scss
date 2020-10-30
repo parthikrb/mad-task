@@ -1,0 +1,83 @@
+// variables
+// @import "react-gui-builder/variables";
+
+html,
+body {
+  font-family: "Roboto" !important;
+}
+
+textarea,
+button,
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+div,
+span {
+  font-family: "Roboto" !important;
+  text-transform: none;
+}
+
+.not-found-grid-container {
+  height: auto;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: whitesmoke;
+}
+
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+.action-section div {
+  flex-direction: row;
+  justify-content: flex-end;
+
+  .action-button {
+    margin: 0.15rem;
+    text-transform: none;
+  }
+}
+.sweet-alert-btn {
+  width: 4rem;
+  height: 1.5rem;
+  color: white;
+  font-family: inherit;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  &.btn-danger {
+    background-color: #f50057;
+  }
+  &.btn-default {
+    background-color: #3f51b5;
+  }
+}
+.snackbar-success div {
+  background-color: #43a047;
+}
+.snackbar-error div {
+  background-color: #d32f2f;
+}
+.snackbar-warning div {
+  background-color: #ffa000;
+}
+.MuiButton-root.logout-btn {
+  color: #ffffff;
+}
