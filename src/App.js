@@ -4,7 +4,7 @@ import { Router, Route, Switch } from 'react-router-dom';
 import GlobalState from './hooks/useContext/GlobalState';
 import { ProtectedRoute } from './routes/ProtectedRoute.js';
 import { PublicRoute } from './routes/PublicRoute';
-import ErrorBoundary from './utils/ErrorBoundary/ErrorBoundary';
+import ErrorBoundary from './HOC/ErrorBoundary/ErrorBoundary';
 import Spinner from './components/Loader/Loader';
 
 const SignIn = lazy(() => import('./layouts/Authentication'));

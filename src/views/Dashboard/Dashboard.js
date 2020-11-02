@@ -22,7 +22,7 @@ import Snackbar from "@material-ui/core/Snackbar";
 import SweetAlert from "react-bootstrap-sweetalert";
 import authentication from "../../utils/Authentication";
 import MainListItems from "../../components/ListItems/ListItems";
-import DraggableContainer from "./DraggableContainer";
+import DraggableContainer from "../../components/DragContainer/DraggableContainer";
 import context from "../../hooks/useContext/Context";
 import {
   setStorageItem,
